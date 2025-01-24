@@ -97,6 +97,111 @@ git diff
 ```
 git diff <commit1> <commit2>	
 ```
+## 23. Display the difference between the current directory and the last commit
+```
+git diff HEAD	
+```
+## 24.Creates a new commit with the changes in the staging area and opens the default text editor for adding a commit message.
+
+```
+git commit	
+```
+## 25. Creates a new commit with the changes in the staging area and specifies the commit message inline.
+
+```
+git commit -m “<message>” or git commit –message “<message>”	
+```
+## 26. Commits all modified and deleted files in the repository without explicitly using git add to stage the changes.
+
+```
+git commit -a or git commit –all	
+```
+
+## 27. Creates a new note and associates it with an object (commit, tag, etc.).
+
+```
+git notes add	
+```
+## 28. Restores the file in the working directory to its state in the last commit.
+
+```
+git restore <file>	
+```
+## 29. Moves the branch pointer to a specified commit, resetting the staging area and the working directory to match the specified commit.
+```
+git reset <commit>	
+```
+## 30. Create a new commit in a Git repository with a specific message to indicate a new feature commit in the repository.
+
+```
+git commit -m “feat: message”	
+```
+## 31. Create a new commit in a Git repository with a specific message to fix the bugs in codebases
+
+```
+git commit -m “fix: message”	
+```
+## 32. Create a new commit in a Git repository with a specific message to show routine tasks or maintenance.
+.
+```
+git commit -m “chore: message”	
+```
+## 33. Create a new commit in a Git repository with a specific message to change the code base and improve the structure.
+
+```
+git commit -m “refactor: message”	
+```
+## 34. Create a new commit in a Git repository with a specific message to change the documentation.
+
+```
+git commit -m “docs: message”	
+```
+## 35. Create a new commit in a Git repository with a specific message to indicate test-related changes.
+
+```
+git commit -m “test: message”	
+```
+## 36. Create a new commit in a Git repository with a specific message to indicate performance-related changes.
+
+```
+git commit -m “perf: message”	
+```
+## 37. Create a new commit in a Git repository with a specific message to indicate the changes related to the build process.
+
+```
+git commit -m “build: message”	
+```
+## 38. Create a new commit in a Git repository with a specific message to indicate the changes related to revert a previous commit.
+
+```
+git commit -m “revert: message”	
+```
+## 39. Lists all branches in the repository.
+
+```
+git branch	
+```
+## 40. Creates a new branch with the specified name.
+
+```
+git branch <branch-name>	
+
+```
+## 41. Deletes the specified branch.
+
+```
+git branch -d <branch-name>	
+```
+## 42. Lists all local and remote branches.
+
+```
+git branch -a	
+```
+## 43. Lists all remote branches.
+
+```
+git branch -r	
+```
 ## 5. Set your email globally.
 ```
 
@@ -113,7 +218,6 @@ git diff <commit1> <commit2>
 ```
 
 ```
-
 ## 5. Set your email globally.
 ```
 
@@ -158,6 +262,84 @@ git diff <commit1> <commit2>
 ```
 
 ```
+
+## 5. Set your email globally.
+```
+
+```
+## 5. Set your email globally.
+```
+
+```
+## 5. Set your email globally.
+```
+
+```
+## 5. Set your email globally.
+```
+
+```
+## 5. Set your email globally.
+```
+
+```
+## 5. Set your email globally.
+```
+
+```
+## 5. Set your email globally.
+```
+
+```
+## 5. Set your email globally.
+```
+
+```
+## 5. Set your email globally.
+```
+
+```
+## 5. Set your email globally.
+```
+
+```
+
+## 5. Set your email globally.
+```
+
+```
+## 5. Set your email globally.
+```
+
+```
+## 5. Set your email globally.
+```
+
+```
+## 5. Set your email globally.
+```
+
+```
+## 5. Set your email globally.
+```
+
+```
+## 5. Set your email globally.
+```
+
+```
+## 5. Set your email globally.
+```
+
+```
+## 5. Set your email globally.
+```
+
+```
+## 5. Set your email globally.
+```
+
+```
 ## 5. Set your email globally.
 ```
 
@@ -203,3 +385,128 @@ git diff <commit1> <commit2>
 ```
 
 ```
+
+## 5. Set your email globally.
+```
+
+```
+## 5. Set your email globally.
+```
+
+```
+## 5. Set your email globally.
+```
+
+```
+## 5. Set your email globally.
+```
+
+```
+## 5. Set your email globally.
+```
+
+```
+## 5. Set your email globally.
+```
+
+```
+## 5. Set your email globally.
+```
+
+```
+## 5. Set your email globally.
+```
+
+```
+## 5. Set your email globally.
+```
+
+```
+## 5. Set your email globally.
+```
+
+```
+
+## 5. Set your email globally.
+```
+
+```
+## 5. Set your email globally.
+```
+
+```
+## 5. Set your email globally.
+```
+
+```
+## 5. Set your email globally.
+```
+
+```
+## 5. Set your email globally.
+```
+
+```
+## 5. Set your email globally.
+```
+
+```
+## 5. Set your email globally.
+```
+
+```
+## 5. Set your email globally.
+```
+
+```
+## 5. Set your email globally.
+```
+
+```
+## 5. Set your email globally.
+```
+
+```
+
+## 5. Set your email globally.
+```
+
+```
+## 5. Set your email globally.
+```
+
+```
+## 5. Set your email globally.
+```
+
+```
+## 5. Set your email globally.
+```
+
+```
+## 5. Set your email globally.
+```
+
+```
+## 5. Set your email globally.
+```
+
+```
+## 5. Set your email globally.
+```
+
+```
+## 5. Set your email globally.
+```
+
+```
+## 5. Set your email globally.
+```
+
+```
+## 5. Set your email globally.
+```
+
+```
+
+
