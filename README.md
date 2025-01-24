@@ -26,7 +26,7 @@ This cheat sheet is designed to save time and help developers efficiently naviga
 Contributions are welcome! Feel free to submit a pull request to improve the cheat sheet or suggest additional commands that you find useful.  
 
 ---
-
-How does this look? Would you like to include installation instructions or a table of contents?
+## Thank You
+# Follow for more
 
 
