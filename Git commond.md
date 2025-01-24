@@ -370,7 +370,7 @@ git remote update
 git remote rename <old_name> <new_name>
 
 ```
-### 75. # List all files tracked by Git
+### 76. # List all files tracked by Git
 ```
 git ls-files
 ```
