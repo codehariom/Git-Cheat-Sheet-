@@ -18,7 +18,6 @@ $ git –version
 git config –global user.name “Your Name”
 ```
  ### 5. Set your email globally.
-
  ```
  git config –global user.email “youremail@example.com”	
  ```
