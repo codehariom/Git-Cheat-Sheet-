@@ -44,53 +44,58 @@ git clone <repository_url>
 ```
 git clone –branch <branch_name> <repository_url>
 ```
-## 5. Set your email globally.
+## 11. Adds a specific file to the staging area.
 ```
+git add <file>	
+```
+## 12. Adds all modified and new files to the staging area.
 
 ```
-## 5. Set your email globally.
+git add . or git add –all	
 ```
+## 13. Shows the current state of your repository, including tracked and untracked files, modified files, and branch information.
+```
+git status	
+```
+## 14. Displays ignored files in addition to the regular status output.
+```
+git status –ignored	
+```
+## 15. # Clone and create a local copy of a remote repository
+```
+git clone <url>
+```
+## 16. # Show a summary of your Git configuration settings
+```
+git config --list
+```
+## 17. # Create a Git command alias
+```
+git config --global alias.<shortcut> <command>
 
 ```
-## 5. Set your email globally.
-```
+## 18. Clones a specific branch from a repository.
 
 ```
-## 5. Set your email globally.
+git clone –branch <branch_name> <repository_url>	
 ```
+## 19. # Remove files from working tree and staging area
+```
+git rm <file(s)>
 
 ```
-## 5. Set your email globally.
+## 20. Move or rename a file
 ```
+git mv <old_file> <new_file>
 
 ```
-## 5. Set your email globally.
+## 21. Shows the changes between the working directory and the staging area (index).
 ```
-
+git diff	
 ```
-## 5. Set your email globally.
+## 22. Displays the differences between two commits.
 ```
-
-```
-## 5. Set your email globally.
-```
-
-```
-## 5. Set your email globally.
-```
-
-```
-## 5. Set your email globally.
-```
-
-```
-## 5. Set your email globally.
-```
-
-```
-## 5. Set your email globally.
-```
-
+git diff <commit1> <commit2>	
 ```
 ## 5. Set your email globally.
 ```
