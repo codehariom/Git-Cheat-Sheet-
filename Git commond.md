@@ -260,265 +260,121 @@ git stash pop
 ```
 git stash drop	
 ```
-## 55. # List all tags
+## 55.  List all tags
 
 ```
 git tag
 
 ```
-## 5. Set your email globally.
-```
-
-```
-## 5. Set your email globally.
-```
-
-```
-
-## 5. Set your email globally.
-```
-
-```
-## 5. Set your email globally.
-```
-
-```
-## 5. Set your email globally.
-```
-
-```
-## 5. Set your email globally.
-```
-
-```
-## 5. Set your email globally.
-```
-
-```
-## 5. Set your email globally.
-```
-
-```
-## 5. Set your email globally.
-```
-
-```
-## 5. Set your email globally.
-```
-
-```
-## 5. Set your email globally.
-```
-
-```
-## 5. Set your email globally.
-```
-
-```
-
-## 5. Set your email globally.
-```
-
-```
-## 5. Set your email globally.
-```
-
-```
-## 5. Set your email globally.
-```
-
-```
-## 5. Set your email globally.
-```
-
-```
-## 5. Set your email globally.
-```
-
-```
-## 5. Set your email globally.
-```
-
-```
-## 5. Set your email globally.
-```
-
-```
-## 5. Set your email globally.
-```
-
-```
-## 5. Set your email globally.
-```
-
-```
-## 5. Set your email globally.
-```
-
-```
-
-## 5. Set your email globally.
-```
-
-```
-## 5. Set your email globally.
-```
-
-```
-## 5. Set your email globally.
-```
-
-```
-## 5. Set your email globally.
-```
-
-```
-## 5. Set your email globally.
-```
-
-```
-## 5. Set your email globally.
-```
-
-```
-## 5. Set your email globally.
-```
-
-```
-## 5. Set your email globally.
-```
-
-```
-## 5. Set your email globally.
-```
-
-```
-## 5. Set your email globally.
-```
-
-```
-
-## 5. Set your email globally.
-```
+## 56.  Create a new tag at a specific commit
 
-```
-## 5. Set your email globally.
 ```
+git tag <tag_name> <commit_id>
 
 ```
-## 5. Set your email globally.
-```
+## 57.  Create an annotated tag with a message
 
-```
-## 5. Set your email globally.
 ```
+git tag -a <tag_name> -m "tag message"
 
 ```
-## 5. Set your email globally.
-```
 
-```
-## 5. Set your email globally.
-```
+## 58.  Delete a specific tag
 
-```
-## 5. Set your email globally.
 ```
+git tag -d <tag_name>
 
 ```
-## 5. Set your email globally.
-```
+## 59. # Show information about a specific tag
 
-```
-## 5. Set your email globally.
 ```
+git show <tag_name>
 
 ```
-## 5. Set your email globally.
-```
+## 60. Creates a new commit that undoes the changes introduced by the specified commit.
 
 ```
-
-## 5. Set your email globally.
+git revert <commit>	
 ```
+## 61. Undoes the changes introduced by the specified commit, but does not create a new commit.
 
 ```
-## 5. Set your email globally.
+git revert –no-commit <commit>	
 ```
+## 62. Reapplies commits on the current branch onto the tip of the specified branch.
 
 ```
-## 5. Set your email globally.
+git rebase <branch>	
 ```
+## 63.Retrieves change from a remote repository, including new branches and commit.
 
 ```
-## 5. Set your email globally.
+git fetch	
 ```
+## 64. Retrieves change from the specified remote repository.
 
 ```
-## 5. Set your email globally.
+git fetch <remote>	
 ```
+## 65. Fetches changes from the remote repository and merges them into the current branch.
 
 ```
-## 5. Set your email globally.
+git pull	
 ```
+## 66. Fetches changes from the specified remote repository and merges them into the current branch.
 
 ```
-## 5. Set your email globally.
+git pull <remote>	
 ```
+## 67. Pushes local commits to the remote repository.
 
 ```
-## 5. Set your email globally.
+git push	
 ```
 
-```
-## 5. Set your email globally.
-```
+## 68. Pushes local commits to the specified remote repository.
 
 ```
-## 5. Set your email globally.
+git push <remote>	
 ```
+## 69. Pushes local commits to the specified branch of the remote repository.
 
 ```
-
-## 5. Set your email globally.
+git push <remote> <branch>	
 ```
+## 70. Pushes all branches to the remote repository.
 
 ```
-## 5. Set your email globally.
+git push –all	
 ```
+## 71. Lists all remote repositories.
 
 ```
-## 5. Set your email globally.
+git remote	
 ```
+## 72. Adds a new remote repository with the specified name and URL.
 
-```
-## 5. Set your email globally.
 ```
-
+git remote add <name> <url>	
 ```
-## 5. Set your email globally.
+## 73. # Remove a remote repository
 ```
+git remote rm <remote_name>
 
-```
-## 5. Set your email globally.
 ```
+## 74. # Fetch updates from all remote repositories
 
 ```
-## 5. Set your email globally.
-```
+git remote update
 
-```
-## 5. Set your email globally.
 ```
+## 75. # Rename a remote repository
 
 ```
-## 5. Set your email globally.
-```
+git remote rename <old_name> <new_name>
 
 ```
-## 5. Set your email globally.
+## 75. # List all files tracked by Git
 ```
-
+git ls-files
 ```
-
-
