@@ -202,56 +202,68 @@ git branch -a
 ```
 git branch -r	
 ```
-## 5. Set your email globally.
-```
+## 44. Switches to the specified branch.
 
 ```
-## 5. Set your email globally.
+git checkout <branch-name>	
 ```
+## 45. Creates a new branch and switches to it.
 
 ```
-## 5. Set your email globally.
+git checkout -b <new-branch-name>	
 ```
+## 46. Discards changes made to the specified file and revert it to the version in the last commit.
+```
+git checkout — <file>	
+```
+## 47. Displays the commit history of the current branch.
 
 ```
-## 5. Set your email globally.
+git log	
 ```
+## 48.Displays the commit history of the current branch in short.
+```
+git log	--oneline
+```
+## 48.Displays the commit history branch 
+```
+git log	--graph
+```
+## 49. # Create a new branch
 
 ```
-## 5. Set your email globally.
-```
+git branch <branch_name>
 
 ```
-## 5. Set your email globally.
-```
+## 50. Displays the commit history of all branches.
 
 ```
-## 5. Set your email globally.
+git log –all	
 ```
+## 51. Stashes the changes in the working directory, allowing you to switch to a different branch or commit without committing the changes.
 
 ```
-## 5. Set your email globally.
+git stash	
 ```
+## 52. Lists all stashes in the repository.
 
 ```
-## 5. Set your email globally.
+git stash list	
 ```
+## 53. Applies and removes the most recent stash from the stash list.
 
 ```
-## 5. Set your email globally.
+git stash pop	
 ```
+## 54. Removes the most recent stash from the stash list.
 
 ```
-## 5. Set your email globally.
+git stash drop	
 ```
+## 55. # List all tags
 
 ```
-## 5. Set your email globally.
-```
-
-```
-## 5. Set your email globally.
-```
+git tag
 
 ```
 ## 5. Set your email globally.
